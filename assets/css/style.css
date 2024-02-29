@@ -11,6 +11,9 @@
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
+.overflow_hidden{
+  overflow: hidden;
+}
 
 * {
   padding: 0;
