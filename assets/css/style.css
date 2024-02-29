@@ -279,7 +279,7 @@
 }
 
 .card-radius {
-  border-radius: 32px;
+  border-radius: 18px;
 }
 .small-circle {
   border-radius: 100%;
@@ -753,4 +753,10 @@ ul {
 
 .slick-track {
   display: flex !important;
+}
+
+@media (min-width: 576px) {
+  .card-radius {
+    border-radius: 32px;
+  }
 }
