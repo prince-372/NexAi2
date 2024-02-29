@@ -18,6 +18,7 @@
   list-style-type: none !important;
   text-decoration: none !important;
   box-sizing: border-box;
+  transition: all 300ms linear;
 }
 
 .My-container {
@@ -28,6 +29,11 @@
 }
 .slider-container {
   max-width: 1264px !important;
+}
+
+.hero-gradiunt {
+  position: absolute;
+  bottom: 0%;
 }
 
 /* spacing */
@@ -260,6 +266,10 @@
   padding-right: 24px;
   padding-top: 30px;
   padding-bottom: 30px;
+  transition: 0.4s !important;
+}
+.unique-card:hover > h3 {
+  color: #02cdcf !important;
 }
 .unique-card .no-scroll::-webkit-scrollbar {
   display: none;
@@ -267,6 +277,7 @@
 .no-scroll::-webkit-scrollbar {
   display: none;
 }
+
 .card-radius {
   border-radius: 32px;
 }
@@ -312,6 +323,10 @@
   background-size: 100% 100%;
   max-width: 367px;
   min-height: 367px !important;
+  transition: all 300ms linear !important;
+}
+.poligan-card:hover > h4 {
+  color: #02cdcf !important;
 }
 
 .poligin-circle {
@@ -351,6 +366,7 @@
   box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16) !important;
   transition: all 9s linear !important;
 }
+
 .px_43 {
   padding-left: 43px;
   padding-right: 43px;
