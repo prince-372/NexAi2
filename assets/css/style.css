@@ -60,6 +60,11 @@
   margin-bottom: 160px;
 }
 
+.py-53{
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+
 .px-72 {
   padding-left: 72px;
   padding-right: 72px;
@@ -78,8 +83,15 @@
 .pl-78 {
   padding-left: 78px;
 }
+.pt-70{
+  padding-top: 70px;
+}
 .mt-60 {
   margin-top: 60px !important;
+}
+.pt-80{
+  padding-top: 80px;
+ 
 }
 .pt-248 {
   padding-top: 248px;
@@ -118,6 +130,9 @@
 }
 .mb-20 {
   margin-bottom: 20px;
+}
+.ps-48{
+  padding-left: 0;
 }
 
 .btn-commn {
@@ -196,6 +211,9 @@
 }
 .max-w-517 {
   max-width: 517px;
+}
+.min-h-220{
+  min-height: 220px;
 }
 .max-w-356 {
   max-width: 356px;
@@ -345,17 +363,17 @@
   left: 0;
   top: 0;
 }
-.px_3 {
-  padding-left: 12px;
-  padding-right: 12px;
+.mx_3 {
+  margin-left: 12px;
+  margin-right: 12px;
 }
-.py_20 {
-  padding-bottom: 20px;
-  padding-top: 20px;
+.my_20 {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .sliderCard {
-  height: 140px;
+  /* height: 140px; */
   border-radius: 16px;
   background: #090909;
   box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16) !important;

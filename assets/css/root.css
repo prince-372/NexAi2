@@ -5,7 +5,7 @@
   --fs-md: 18px;
   --fs-md1: 20px;
   --fs-lg: 24px;
- --fs-lg2:32px;
+  --fs-lg2: 32px;
   --fs-lg1: 25px;
   --fs-xl: 33px;
 
@@ -13,8 +13,15 @@
   --lightblue: #02cdcf;
   --grey: #b4b4b4;
   --lightblack: #545454;
-  --lightgrey:#B7BAB9;
-  --grey2:#B3B6B7;
+  --lightgrey: #b7bab9;
+  --grey2: #b3b6b7;
+
+  /* linehight */
+  --lh-xl: 38.6px;
+  --lh-lg: 38.4px;
+  --lh-md: 32px;
+  --lh-md1: 38.4px;
+  --lh-sm: 25.6px;
 }
 
 /* / font size / */
@@ -70,11 +77,27 @@
 .bg-lightblue {
   background-color: var(--lightblue);
 }
-.text-grey2{
+.text-grey2 {
   color: var(--grey2);
 }
 
-@media (min-width:768px) {
+.lh-xl {
+  line-height: var(--lh-xl);
+}
+.lh-lg1 {
+  line-height: var(--lh-lg) !important;
+}
+.lh-md {
+  line-height: var(--lh-md);
+}
+.lh-md1 {
+  line-height: var(--lh-md1);
+}
+.lh-sm {
+  line-height: var(--lh-sm);
+}
+
+@media (min-width: 768px) {
   :root {
     /* / font-size / */
     --fs-sm: 15px;
@@ -82,8 +105,15 @@
     --fs-md: 18px;
     --fs-md1: 20px;
     --fs-lg: 24px;
-   --fs-lg2:32px;
+    --fs-lg2: 32px;
     --fs-lg1: 40px;
     --fs-xl: 60px;
+
+    /* linehight */
+    --lh-xl: 75.6px;
+    --lh-lg: 50.4px;
+    --lh-md: 32px;
+    --lh-md1: 38.4px;
+    --lh-sm: 25.6px;
   }
 }
