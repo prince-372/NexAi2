@@ -11,7 +11,7 @@
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
-.overflow_hidden{
+.overflow_hidden {
   overflow: hidden;
 }
 
@@ -60,7 +60,7 @@
   margin-bottom: 160px;
 }
 
-.py-53{
+.py-53 {
   padding-top: 53px;
   padding-bottom: 53px;
 }
@@ -83,18 +83,17 @@
 .pl-78 {
   padding-left: 78px;
 }
-.pt-70{
+.pt-70 {
   padding-top: 70px;
 }
 .mt-60 {
   margin-top: 60px !important;
 }
-.mt-25{
+.mt-25 {
   margin-top: 25px;
 }
-.pt-80{
+.pt-80 {
   padding-top: 80px;
- 
 }
 .pt-248 {
   padding-top: 248px;
@@ -134,7 +133,7 @@
 .mb-20 {
   margin-bottom: 20px;
 }
-.ps-48{
+.ps-48 {
   padding-left: 0;
 }
 
@@ -215,7 +214,7 @@
 .max-w-517 {
   max-width: 517px;
 }
-.min-h-220{
+.min-h-220 {
   min-height: 220px;
 }
 .max-w-356 {
@@ -262,6 +261,13 @@
   padding-top: 30px;
   padding-bottom: 30px;
   margin-left: 12px;
+}
+.footer-icon {
+  transition: all 300ms linear;
+}
+
+.footer-icon:hover {
+  transform: translateY(-10px) scale(0.9);
 }
 
 /* footerline */
@@ -765,7 +771,7 @@ ul {
   .mt-100 {
     margin-top: 100px;
   }
-  .pt-sm-48{
+  .pt-sm-48 {
     padding-top: 48px;
   }
 }
